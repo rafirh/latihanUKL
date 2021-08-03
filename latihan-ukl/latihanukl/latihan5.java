@@ -41,8 +41,8 @@ public class latihan5 {
         // Menampilkan hasil
         System.out.println("Hasil Pengurangan Matriks A Dan B =");
 
-        for (int x = 0; x < 2; x++) {
-            for (int y = 0; y < 2; y++) {
+        for (int x = 0; x < jumlahbaris; x++) {
+            for (int y = 0; y < jumlahkolom; y++) {
                 System.out.print(hasil[x][y] + "  ");
             }
             System.out.println();
