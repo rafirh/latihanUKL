@@ -8,8 +8,8 @@ public class latihan5 {
         int[][] nil2 = { { 3, 1 }, { 5, -2 } };
         int[][] hasil = new int[2][2];
 
-        int jumlahbaris = 2;
-        int jumlahkolom = 2;
+        int jumlahbaris = nil1.length;
+        int jumlahkolom = nil2.length;
 
         // Menampilkan matriks A
         System.out.println("Matrik A");
