@@ -23,13 +23,13 @@ public class ukl {
         int penghitungan = golongan[id - 1];
         switch (penghitungan) {
             case 1:
-                total = pemakaian * harga1 + 13000;
+                total += pemakaian * harga1 + 13000;
                 break;
             case 2:
-                total = pemakaian * harga2 + 13000;
+                total += pemakaian * harga2 + 13000;
                 break;
             case 3:
-                total = pemakaian * harga3 + 13000;
+                total += pemakaian * harga3 + 13000;
                 break;
         }
 
