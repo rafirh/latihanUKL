@@ -2,7 +2,7 @@ package latihanukl;
 
 import java.util.Scanner;
 
-public class ukl {
+public class pdam {
     public static void main(String[] args) {
         // Buat copas
         // System.out.println("");
@@ -17,7 +17,7 @@ public class ukl {
         System.out.println("Masukkan Penggunaan Air : ");
         int penggunaan = input.nextInt();
 
-        int totalbayar = 6000; // deklarasi sekalian biaya admin
+        int totalbayar = 5000; // deklarasi sekalian biaya admin
 
         System.out.println("===============================");
         System.out.println("Nomor Id = " + id);
