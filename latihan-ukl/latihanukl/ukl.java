@@ -36,6 +36,8 @@ public class ukl {
         if (total < 50000) {
             total = 50000;
         }
+        
+        total += 13000;
 
         System.out.println("=====================");
         System.out.println("Id = " + id);
@@ -44,7 +46,7 @@ public class ukl {
         System.out.println("Alamat = " + alamatpelanggan[id - 1]);
         System.out.println("---------------------");
         System.out.println("Jumlah Penggunaan = " + pemakaian + " kwh");
-        System.out.println("Total Harus Bayar = Rp " + (total+13000);
+        System.out.println("Total Harus Bayar = Rp " + (total);
 
     }
 }
