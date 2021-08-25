@@ -23,13 +23,13 @@ public class ukl {
         int penghitungan = golongan[id - 1];
         switch (penghitungan) {
             case 1:
-                total += pemakaian * harga1 + 13000;
+                total += pemakaian * harga1;
                 break;
             case 2:
-                total += pemakaian * harga2 + 13000;
+                total += pemakaian * harga2;
                 break;
             case 3:
-                total += pemakaian * harga3 + 13000;
+                total += pemakaian * harga3;
                 break;
         }
 
@@ -44,7 +44,7 @@ public class ukl {
         System.out.println("Alamat = " + alamatpelanggan[id - 1]);
         System.out.println("---------------------");
         System.out.println("Jumlah Penggunaan = " + pemakaian + " kwh");
-        System.out.println("Total Harus Bayar = Rp " + total);
+        System.out.println("Total Harus Bayar = Rp " + (total+13000);
 
     }
 }
